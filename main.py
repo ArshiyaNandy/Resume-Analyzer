@@ -1,3 +1,5 @@
+import os
+os.environ["PAFY_BACKEND"] = "internal"
 import sqlite3
 import nltk
 nltk.download('stopwords')
